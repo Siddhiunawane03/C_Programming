@@ -1,2 +1,1 @@
-# C_Programming
-Programs and Assignments for Logic Building Batch – C Language
+# C Programming Repository 
