@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+void Pattern(int iNo)
+{
+    char ch = 'A';
+    for(int i= 1; i<= iNo ; i++)
+    {
+        printf("%c ",ch);
+        ch++;
+    }
+    printf("\n"); 
+}
+
+int main()
+{
+    int iValue = 0;
+    printf("enter number of elements ");
+    scanf("%d",&iValue);
+
+    Pattern(iValue);
+
+    return 0;
+}
