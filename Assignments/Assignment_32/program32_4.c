@@ -7,13 +7,18 @@ void Pattern(int iRow, int iCol)
     {
         for(int j = 1; j<= iCol; j++)
         {
-           if(i == 1 || i== iRow || j ==1 || j == iCol)
+           if(i == 1 || i== iRow || j ==1 || j == iCol|| i+j ==iCol+1)
            {
-                printf("%d\t",j);
+                printf("*\t");
            }
+           else if( j <= iCol-i)
+           {
+                printf("#\t");
+           }
+
            else
            {
-                printf("@\t");
+                printf("$\t");
            }
         } 
         
